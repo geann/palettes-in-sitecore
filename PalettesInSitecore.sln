@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{828E02A4-E3D1-4982-8D68-EE706E27DDEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{11779713-733C-48AE-A19A-B05BA89CB581}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{9C6AB64B-3611-4923-B626-04F4DC6B61EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalettesInSitecore", "src\Foundation\PalettesInSitecore\PalettesInSitecore.csproj", "{1F842305-2891-4856-A705-8E05803317C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F842305-2891-4856-A705-8E05803317C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F842305-2891-4856-A705-8E05803317C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F842305-2891-4856-A705-8E05803317C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F842305-2891-4856-A705-8E05803317C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F842305-2891-4856-A705-8E05803317C1} = {828E02A4-E3D1-4982-8D68-EE706E27DDEA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C97D30FC-864B-4479-9167-BEFAFFA5343D}
+	EndGlobalSection
+EndGlobal
