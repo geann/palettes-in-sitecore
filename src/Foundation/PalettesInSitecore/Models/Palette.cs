@@ -1,4 +1,5 @@
-﻿namespace PalettesInSitecore.Models
+﻿using Sitecore.Data;
+namespace PalettesInSitecore.Models
 {
     public class Palette
     {
@@ -11,6 +12,7 @@
         public const string DefaultTheme = "Default";
         public static readonly string DefaultThemeKey = DefaultTheme.ToLower();
 
-        public const string PaletteFolderId = "{8074405D-C728-4931-B585-4DA253E8AF92}";
+        public const string PaletteFolderIdString = "{8074405D-C728-4931-B585-4DA253E8AF92}";
+        public static readonly ID PaletteFolderId = new ID(PaletteFolderIdString);
     }
 }
