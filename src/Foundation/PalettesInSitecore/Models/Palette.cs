@@ -32,6 +32,14 @@ namespace PalettesInSitecore.Models
         {
             _item = Sitecore.Context.Database.Items.GetItem(Id);
         }
+        public Palette(ID Id)
+        {
+            _item = Sitecore.Context.Database.Items.GetItem(Id);
+        }
+        public Palette(Sitecore.Data.Items.Item item)
+        {
+            _item = item;
+        }
     }
     public static partial class PaletteConstants
     {
