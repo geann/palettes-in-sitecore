@@ -16,7 +16,18 @@ namespace PalettesInSitecore.Models
                     return string.Empty;
             }
         }
-        public virtual string CTABG { get; set; }
+
+        public virtual string CTABG
+        {
+            get
+            {
+                if (_item != null)
+                    return _item.Fields["CTA BG"].Value;
+                else
+                    return string.Empty;
+            }
+        }
+
         public Palette(string Id)
         {
             _item = Sitecore.Context.Database.Items.GetItem(Id);
@@ -29,5 +40,7 @@ namespace PalettesInSitecore.Models
 
         public const string PaletteFolderIdString = "{8074405D-C728-4931-B585-4DA253E8AF92}";
         public static readonly ID PaletteFolderId = new ID(PaletteFolderIdString);
+
+        //TODO: add constants for the field names
     }
 }
