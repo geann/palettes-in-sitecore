@@ -1,11 +1,18 @@
 ﻿using Sitecore.Data;
 namespace PalettesInSitecore.Models
 {
+
     public class Palette
     {
+        private Sitecore.Data.Items.Item _item;
+
         public virtual PaletteTheme PaletteTheme { get; set; }
         public virtual string BG { get; set; }
         public virtual string CTABG { get; set; }
+        public Palette(string Id)
+        {
+            _item = Sitecore.Context.Database.Items.GetItem(Id);
+        }
     }
     public static partial class PaletteConstants
     {
