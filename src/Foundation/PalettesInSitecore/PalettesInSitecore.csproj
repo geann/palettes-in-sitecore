@@ -47,6 +47,9 @@
     <Reference Include="Sitecore.Kernel">
       <HintPath>..\..\..\packages\Sitecore.Kernel.10.1.1\lib\net48\Sitecore.Kernel.dll</HintPath>
     </Reference>
+    <Reference Include="Sitecore.Mvc">
+      <HintPath>..\..\..\packages\Sitecore.Mvc.10.1.1\lib\net48\Sitecore.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -56,6 +59,9 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\..\..\packages\Microsoft.AspNet.Mvc.5.2.7\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
@@ -77,6 +83,7 @@
     <Compile Include="Helpers\ThemeBuilder.cs" />
     <Compile Include="Models\Palette.cs" />
     <Compile Include="Models\PaletteTheme.cs" />
+    <Compile Include="Controllers\PaletteController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
