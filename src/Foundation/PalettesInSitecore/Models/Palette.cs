@@ -27,6 +27,16 @@ namespace PalettesInSitecore.Models
                     return string.Empty;
             }
         }
+        public virtual string PaletteKey
+        {
+            get
+            {
+                if (_item != null)
+                    return _item.Name.ToLower();
+                else
+                    return string.Empty;
+            }
+        }
 
         public Palette(string Id)
         {
