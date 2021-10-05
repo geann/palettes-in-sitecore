@@ -13,5 +13,10 @@ namespace PalettesInSitecore.Models
         public int H { get; }
         public int S { get; }
         public int L { get; }
+
+        public string ToHslString()
+        {
+            return $"hsl({H}, {S}%, {L}%)";
+        }
     }
 }
