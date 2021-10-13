@@ -1,10 +1,10 @@
 ﻿using PalettesInSitecore.Models;
-using System.Collections.Generic;
-using System.Linq;
 namespace PalettesInSitecore.Helpers
 {
     public class ThemeBuilder
     {
+        private readonly ColourConverter _colourConverter = new ColourConverter();
+
         public string Build()
         {
             string themeCss = string.Empty;
@@ -25,7 +25,7 @@ namespace PalettesInSitecore.Helpers
 
             if (!string.IsNullOrEmpty(palette.BG))
             {
-                paletteCss += $"{themeBaseClass} .theme-token-bg{{background-color:{palette.BG}}}";
+                paletteCss += $"{themeBaseClass} .theme-token-bg{{background-color:{_colourConverter.Hsl(palette.BG)}}}";
             }
 
             return paletteCss;
