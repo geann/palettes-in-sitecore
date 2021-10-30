@@ -82,6 +82,7 @@
   <ItemGroup>
     <Compile Include="Helpers\ColourConverter.cs" />
     <Compile Include="Helpers\ThemeBuilder.cs" />
+    <Compile Include="Helpers\ThemeHelper.cs" />
     <Compile Include="Models\Hsl.cs" />
     <Compile Include="Models\Palette.cs" />
     <Compile Include="Models\PaletteTheme.cs" />
