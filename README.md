@@ -6,6 +6,10 @@ Sitecore packages contain:
 1. **Data Templates**
    - Palette
    - Palette Theme
+   - Theme Content Page
+1. **Renderings**
+   - Palette Styles
+1. **Palette Themes** - pre-defined colour schemes
    
 
 # License
