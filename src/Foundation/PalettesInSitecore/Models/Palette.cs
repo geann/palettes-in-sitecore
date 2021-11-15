@@ -27,6 +27,16 @@ namespace PalettesInSitecore.Models
                     return string.Empty;
             }
         }
+        public virtual string CTAText
+        {
+            get
+            {
+                if (_item != null)
+                    return _item.Fields["CTA Text"].Value;
+                else
+                    return string.Empty;
+            }
+        }
         public virtual string PaletteKey
         {
             get
