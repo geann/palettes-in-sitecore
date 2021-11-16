@@ -37,5 +37,16 @@ namespace PalettesInSitecore.Helpers
             }
             return paletteCss;
         }
+        private string HslToHover(string hex, int delta)
+        {
+            var hsl = _colourConverter.ConvertHex(hex);
+
+            if (hsl == null)
+            {
+                return hex;
+            }
+
+            return (hsl.IsDark ? hsl.Lighten(delta) : hsl.Darken(delta))?.ToHslString() ?? hex;
+        }
     }
 }
