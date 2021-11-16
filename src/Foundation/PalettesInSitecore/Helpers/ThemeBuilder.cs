@@ -34,6 +34,7 @@ namespace PalettesInSitecore.Helpers
                 var borderColour = $"border-color:{_colourConverter.Hsl(palette.CTABG)}";
 
                 paletteCss += $"{themeBaseClass} .theme-token-cta{{{bg};{borderColour}}}";
+                paletteCss += $"{themeBaseClass} .theme-token-cta:hover{{background-color:{HslToHover(palette.CTABG, 15)};border-color:{HslToHover(palette.CTABG, 15)};}}";
             }
             return paletteCss;
         }
