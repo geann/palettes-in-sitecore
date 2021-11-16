@@ -28,6 +28,13 @@ namespace PalettesInSitecore.Helpers
                 paletteCss += $"{themeBaseClass} .theme-token-bg{{background-color:{_colourConverter.Hsl(palette.BG)}}}";
             }
 
+            if (!string.IsNullOrEmpty(palette.CTABG))
+            {
+                var bg = $"background-color:{_colourConverter.Hsl(palette.CTABG)}";
+                var borderColour = $"border-color:{_colourConverter.Hsl(palette.CTABG)}";
+
+                paletteCss += $"{themeBaseClass} .theme-token-cta{{{bg};{borderColour}}}";
+            }
             return paletteCss;
         }
     }
