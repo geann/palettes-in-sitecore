@@ -32,8 +32,9 @@ namespace PalettesInSitecore.Helpers
             {
                 var bg = $"background-color:{_colourConverter.Hsl(palette.CTABG)}";
                 var borderColour = $"border-color:{_colourConverter.Hsl(palette.CTABG)}";
+                var textColour = $"color:{_colourConverter.Hsl(palette.CTAText)}";
 
-                paletteCss += $"{themeBaseClass} .theme-token-cta{{{bg};{borderColour}}}";
+                paletteCss += $"{themeBaseClass} .theme-token-cta{{{bg};{borderColour};{textColour}}}";
                 paletteCss += $"{themeBaseClass} .theme-token-cta:hover{{background-color:{HslToHover(palette.CTABG, 15)};border-color:{HslToHover(palette.CTABG, 15)};}}";
             }
             return paletteCss;
