@@ -6,10 +6,11 @@ Sitecore packages contain:
 1. **Data Templates**
    - Palette - the main definition of a _Palette Item_ with style and coloyur tokens; 
    - Palette Theme - an optional classification of pallette styles;
-   - Theme Content Page - an extension to the standard Content Page template to choose the required Pallette at a page level;
+   - Theme Content Page - an extension to the standard _Content Page_ template to choose the required Pallette at a page level;
 1. **Renderings**
-   - Palette Styles
-1. **Palette Themes** - pre-defined colour schemes
+   - Palette Styles - an aggregated CSS output for *all* pre-defined palette styles;
+   - ThemeComponent - a sample component to illustrate how to use and benefit from the flexible style settings in the front-end;  
+1. **Palette Themes** - some pre-defined colour schemes.
    
 
 # License
