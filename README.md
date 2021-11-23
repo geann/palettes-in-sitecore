@@ -1,5 +1,9 @@
 [![GitHub license](https://img.shields.io/github/license/geann/palettes-in-sitecore.svg)](https://github.com/geann/palettes-in-sitecore/blob/master/LICENSE)
 ![GitHub language count](https://img.shields.io/github/languages/count/geann/palettes-in-sitecore.svg?style=flat)
+![GitHub top language](https://img.shields.io/github/languages/top/geann/palettes-in-sitecore.svg?style=flat)
+![GitHub repo size](https://img.shields.io/github/repo-size/geann/palettes-in-sitecore.svg?style=flat)
+![GitHub contributors](https://img.shields.io/github/contributors/geann/palettes-in-sitecore)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/geann/palettes-in-sitecore)
 
 # Palettes in Sitecore
 Palettes in Sitecore module implements a Colour Palette Management in Sitecore.
