@@ -11,9 +11,12 @@ Palettes in Sitecore module implements a Colour Palette Management in Sitecore.
 # Sitecore Packages
 Sitecore packages contain:
 1. **Data Templates**
-   - Palette - the main definition of a _Palette Item_ with style and coloyur tokens; 
+   - Palette - the main definition of a _Palette Item_ with style and coloyur tokens;
+     ![Palette Data Template](/assets/palette%20data%20template.png) 
    - Palette Theme - an optional classification of palette styles;
+     ![Palette Theme Data Template](/assets/palette%20theme%20data%20template.png) 
    - Theme Content Page - an extension to the standard _Content Page_ template to choose the required Palette at a page level;
+     ![Theme Content Page Data Template](/assets/theme%20content%20page%20data%20template.png) 
 1. **Renderings**
    - Palette Styles - an aggregated CSS output for **all** pre-defined palette styles;
    - ThemeComponent - a sample component to illustrate how to use and benefit from the flexible style settings in the front-end;  
