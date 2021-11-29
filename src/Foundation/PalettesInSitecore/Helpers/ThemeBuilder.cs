@@ -11,9 +11,12 @@ namespace PalettesInSitecore.Helpers
 
             Sitecore.Data.Items.Item PaletteSelectionItem = Sitecore.Context.Database.Items.GetItem(PaletteConstants.PaletteFolderId);
 
-            foreach (Sitecore.Data.Items.Item paletteItem in PaletteSelectionItem.GetChildren())
+            if (PaletteSelectionItem != null)
             {
-                themeCss += BuildTheme(new Palette(paletteItem));
+                foreach (Sitecore.Data.Items.Item paletteItem in PaletteSelectionItem.GetChildren())
+                {
+                    themeCss += BuildTheme(new Palette(paletteItem));
+                }
             }
 
             return themeCss;
