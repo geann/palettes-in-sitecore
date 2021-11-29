@@ -11,7 +11,7 @@ namespace PalettesInSitecore.Models
             get
             {
                 if (_item != null)
-                    return _item.Fields["BG"].Value;
+                    return _item.Fields["BG"]?.Value;
                 else
                     return string.Empty;
             }
@@ -22,7 +22,7 @@ namespace PalettesInSitecore.Models
             get
             {
                 if (_item != null)
-                    return _item.Fields["CTA BG"].Value;
+                    return _item.Fields["CTA BG"]?.Value;
                 else
                     return string.Empty;
             }
@@ -32,7 +32,7 @@ namespace PalettesInSitecore.Models
             get
             {
                 if (_item != null)
-                    return _item.Fields["CTA Text"].Value;
+                    return _item.Fields["CTA Text"]?.Value;
                 else
                     return string.Empty;
             }
