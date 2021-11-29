@@ -16,14 +16,17 @@ Sitecore packages contain:
    - Palette Theme - an optional classification of palette styles;
      ![Palette Theme Data Template](/assets/palette%20theme%20data%20template.png) 
    - Theme Content Page - an extension to the standard _Content Page_ template to choose the required Palette at a page level;
-     ![Theme Content Page Data Template](/assets/theme%20content%20page%20data%20template.png) 
+     ![Theme Content Page Data Template](/assets/theme%20content%20page%20data%20template.png)      
+   - Theme Component - a base template for compoment data sources to choose the required Palette at a component level;
+     ![Theme Component Data Template](/assets/theme%20component%20data%20template.png) 
 1. **Renderings**
    - Palette Styles - an aggregated CSS output for **all** pre-defined palette styles;
    - ThemeComponent - a sample component to illustrate how to use and benefit from the flexible style settings in the front-end;  
 1. **Palette Themes** - some pre-defined colour schemes.
 
 # How to Install
-1. Include the _PalettesInSitecore_ project to your Visual Studio solution;   
+1. Include the _PalettesInSitecore_ project to your Visual Studio solution;
+1. Install Sitecore packages;   
 
 # License
 The Palettes in Sitecore module is released under the MIT license that means that you can modify and use it how you want even for commercial use. Please give it a star if you like it and your experience was positive.
