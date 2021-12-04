@@ -20,7 +20,14 @@ Sitecore packages contain:
 1. **Palette Themes** - some pre-defined colour schemes.
 
 # How to Install
-1. Include the _PalettesInSitecore_ project to your Visual Studio solution;   
+1. Include the _PalettesInSitecore_ project to your Visual Studio solution;  
+1. Install Sitecore packages;
+1. Define your colour themes and populate your **Palette Themes** within `/sitecore/content/Foundation/Palettes/Palette Selection` folder;
+1. Inherit your master page _Data Template_ from `/sitecore/templates/Foundation/Palettes/Theme Content Page` one to support the palette selection at a page level;
+1. Add a **Palette Styles** _Rendering_ `/sitecore/layout/Renderings/Foundation/Palettes/Palette Styles` to your master page _Layout_ to render the required CSS in the result HTML on the fly;
+1. Now you can choose any Palette Style from your list for your pages;
+1. Enjoy!
+ 
 
 # License
 The Palettes in Sitecore module is released under the MIT license that means that you can modify and use it how you want even for commercial use. Please give it a star if you like it and your experience was positive.
