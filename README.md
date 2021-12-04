@@ -6,7 +6,7 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/geann/palettes-in-sitecore)
 
 # Palettes in Sitecore
-Palettes in Sitecore module implements a Colour Palette Management in Sitecore.
+Palettes in Sitecore module implements a Colour Palette Management in Sitecore and allows to select a different colour theme for individual pages with a possibility to override it at a component level when required. So, that content editors can easily apply the desired look & feel in a simple and intuitive way without a need for code changes by developers.
 
 # Sitecore Packages
 Sitecore packages contain:
