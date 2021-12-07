@@ -11,7 +11,7 @@ namespace PalettesInSitecore.Models
             get
             {
                 if (_item != null)
-                    return _item.Fields["BG"]?.Value;
+                    return _item.Fields[PaletteConstants.BGFieldName]?.Value;
                 else
                     return string.Empty;
             }
@@ -22,7 +22,7 @@ namespace PalettesInSitecore.Models
             get
             {
                 if (_item != null)
-                    return _item.Fields["CTA BG"]?.Value;
+                    return _item.Fields[PaletteConstants.CTABGFieldName]?.Value;
                 else
                     return string.Empty;
             }
@@ -32,7 +32,7 @@ namespace PalettesInSitecore.Models
             get
             {
                 if (_item != null)
-                    return _item.Fields["CTA Text"]?.Value;
+                    return _item.Fields[PaletteConstants.CTATextFieldName]?.Value;
                 else
                     return string.Empty;
             }
@@ -69,6 +69,8 @@ namespace PalettesInSitecore.Models
         public const string PaletteFolderIdString = "{8074405D-C728-4931-B585-4DA253E8AF92}";
         public static readonly ID PaletteFolderId = new ID(PaletteFolderIdString);
 
-        //TODO: add constants for the field names
+        public const string BGFieldName = "BG";
+        public const string CTABGFieldName = "CTA BG";
+        public const string CTATextFieldName = "CTA Text";
     }
 }
