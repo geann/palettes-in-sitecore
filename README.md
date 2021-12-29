@@ -31,6 +31,7 @@ Sitecore packages contain:
 1. Inherit your master page _Data Template_ from `/sitecore/templates/Foundation/Palettes/Theme Content Page` one to support the palette selection at a page level;
 1. Add a **Palette Styles** _Rendering_ `/sitecore/layout/Renderings/Foundation/Palettes/Palette Styles` to your master page _Layout_ to render the required CSS in the result HTML on the fly;
 1. Now you can choose any Palette Style from your list for your pages;
+   ![Palette Style selection for a page](/assets/palette%20style%20selection%20for%20a%20page.png) 
 1. Enjoy!
 
 # License
