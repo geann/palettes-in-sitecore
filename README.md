@@ -1,4 +1,5 @@
 [![GitHub license](https://img.shields.io/github/license/geann/palettes-in-sitecore.svg)](https://github.com/geann/palettes-in-sitecore/blob/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release-date/geann/palettes-in-sitecore.svg?style=flat)](https://github.com/geann/palettes-in-sitecore/releases/tag/v1.0)
 ![GitHub language count](https://img.shields.io/github/languages/count/geann/palettes-in-sitecore.svg?style=flat)
 ![GitHub top language](https://img.shields.io/github/languages/top/geann/palettes-in-sitecore.svg?style=flat)
 ![GitHub repo size](https://img.shields.io/github/repo-size/geann/palettes-in-sitecore.svg?style=flat)
