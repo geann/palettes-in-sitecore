@@ -18,7 +18,7 @@ Sitecore packages contain:
      ![Palette Theme Data Template](/assets/palette%20theme%20data%20template.png) 
    - Theme Content Page - an extension to the standard _Content Page_ template to choose the required Palette at a page level;
      ![Theme Content Page Data Template](/assets/theme%20content%20page%20data%20template.png)      
-   - Theme Component - a base template for compoment data sources to choose the required Palette at a component level;
+   - Theme Component - a base template for component data sources to choose the required Palette at a component level;
      ![Theme Component Data Template](/assets/theme%20component%20data%20template.png) 
 1. **Renderings**
    - Palette Styles - an aggregated CSS output for **all** pre-defined palette styles;
